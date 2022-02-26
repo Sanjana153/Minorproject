@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo2"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="#DDD7CEDF"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/text"
+        android:backgroundTint="#81BF9DC5"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/heading"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="center"
+            android:text="ACHIEVEMENTS"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/heading"
+            android:drawableStart="@drawable/add"
+            android:fontFamily="@font/poppins_bold"
+            android:text="  Add your achievements"
+            android:textSize="18dp"
+            android:layout_gravity="center_horizontal"
+            ></TextView>
+
+        <ScrollView
+            android:layout_width="351dp"
+            android:layout_height="611dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="13dp">
+
+
+        </ScrollView>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/heading"
+            app:menu="@menu/menu_main"
+            ></com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

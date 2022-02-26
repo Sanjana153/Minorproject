@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profile"
+        ></item>
+
+    <item
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Search"
+        ></item>
+
+    <item
+        android:icon="@drawable/home"
+        android:title="Events"
+        android:id="@+id/homepage"
+        ></item>
+
+    <item
+        android:icon="@drawable/img_3"
+        android:title="Achievements"
+        ></item>
+
+    <item
+        android:icon="@drawable/winners"
+        android:title="Winners"
+        ></item>
+
+</menu>
